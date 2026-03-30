@@ -14,6 +14,10 @@ The use of culture positivity as a proxy for UTI diagnosis represents a limitati
 - Predictive modeling
 - Model evaluation
 
+## Data availability
+The original clinical dataset is not publicly available due to privacy and data protection restrictions.
+
+To run the analysis, a dataset with equivalent structure and variable names is required.
 ## How to run the analysis
 
 1. Open R or RStudio
