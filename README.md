@@ -5,6 +5,8 @@ This repository contains the R code used in a master's thesis for the developmen
 ## Important note
 The model predicts **positive bacterial cultures**, not clinically confirmed urinary tract infections (UTIs). Due to the absence of detailed clinical data, microbiological culture results were used as the reference standard.
 
+The use of culture positivity as a proxy for UTI diagnosis represents a limitation and may not fully reflect clinical infection status.
+
 ## Contents
 - Data preparation
 - ROC analyses
@@ -12,11 +14,9 @@ The model predicts **positive bacterial cultures**, not clinically confirmed uri
 - Predictive modeling
 - Model evaluation
 
-## Reproducibility
-The code is provided to ensure transparency and reproducibility.
+## How to run the analysis
 
-## Data availability
-Clinical data are not publicly available due to privacy restrictions.
-
-## Important note
-The use of culture positivity as a proxy for UTI diagnosis represents a limitation and may not fully reflect clinical infection status.
+1. Open R or RStudio
+2. Install required packages:
+```r
+install.packages(c("tidyverse", "pROC", "caret"))
