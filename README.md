@@ -17,3 +17,6 @@ The code is provided to ensure transparency and reproducibility.
 
 ## Data availability
 Clinical data are not publicly available due to privacy restrictions.
+
+## Important note
+The use of culture positivity as a proxy for UTI diagnosis represents a limitation and may not fully reflect clinical infection status.
