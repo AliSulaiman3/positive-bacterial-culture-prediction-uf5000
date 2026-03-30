@@ -19,4 +19,4 @@ The use of culture positivity as a proxy for UTI diagnosis represents a limitati
 1. Open R or RStudio
 2. Install required packages:
 ```r
-install.packages(c("tidyverse", "pROC", "caret"))
+install.packages(c("tidyverse", "dplyr", "openxlsx", "readxl", "glue", "pROC", "randomForest", "rpart", "rpart.plot", "e1071", "xgboost", "tabnet", "caret"))
